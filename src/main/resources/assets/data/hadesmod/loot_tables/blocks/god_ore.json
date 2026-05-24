@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls": 0.5,
+
+      "conditions":
+      [
+        {
+          "condition": "minecraft:survives_explosions"
+        }
+      ],
+
+      "entries":
+      [
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:roseville",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:pallasite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:moonvine",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:bloodiron",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:solarite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:regalia",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:oceancore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hadesmod:stormheart",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
