@@ -1,12 +1,14 @@
 package org.shadowskylyn.hadesmod.item;
 
-import net.minecraft.world.item.Rarity;
-import org.shadowskylyn.hadesmod.HadesMod;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.shadowskylyn.hadesmod.HadesMod;
+import org.shadowskylyn.hadesmod.item.custom.EternalSpear;
+import org.shadowskylyn.hadesmod.item.custom.ModFoods;
 
 
 public class ModItems
@@ -18,6 +20,9 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> OBOL = ITEMS.register("obol",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ETERNAL_SPEAR = ITEMS.register("eternal_spear",
+            () -> new EternalSpear(new Item.Properties().rarity(Rarity.UNCOMMON).durability(2500)));
 
     //God Ore's and Dionysus
 

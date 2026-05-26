@@ -1,4 +1,4 @@
-package org.shadowskylyn.hadesmod.item;
+package org.shadowskylyn.hadesmod.item.custom;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.shadowskylyn.hadesmod.HadesMod;
 import org.shadowskylyn.hadesmod.block.ModBlocks;
+import org.shadowskylyn.hadesmod.item.ModItems;
 
 public class ModCreativeModTabs
 {
@@ -19,6 +20,9 @@ public class ModCreativeModTabs
             .title(Component.translatable("creativetab.hades_tab"))
             .displayItems((itemDisplayParameters, output) -> {
                 // goes in order from top to bottom how they get added probably should do it in aplhabetical order
+
+                //Weapons
+                output.accept(ModItems.ETERNAL_SPEAR.get());
 
                 //items and foods below
                 output.accept(ModItems.OBOL.get());

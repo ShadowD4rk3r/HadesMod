@@ -3,7 +3,6 @@ package org.shadowskylyn.hadesmod.block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,7 +22,7 @@ public class ModBlocks
     //Block is harder than diamond and easier than obsidian
     public static final RegistryObject<Block> GOD_ORE = registerBlock("god_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(7f, 600f)
+                    .strength(2f, 600f)
                     .sound(SoundType.GILDED_BLACKSTONE)
                     .requiresCorrectToolForDrops()));
 

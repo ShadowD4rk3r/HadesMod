@@ -10,11 +10,16 @@
   "item.hadesmod.regalia": "Regalia",
   "item.hadesmod.oceancore": "Oceancore",
   "item.hadesmod.stormheart": "Stormheart",
+  "item.hadesmod.eternal_spear": "Varatha, the Eternal Spear",
+
 
   "item.hadesmod.ambrosia": "Ambrosia",
 
   "block.hadesmod.god_ore": "Olympian Ore",
 
 
-  "creativetab.hades_tab": "Hades Mod"
+  "creativetab.hades_tab": "Hades Mod",
+
+  "key.hadesmod.dash_key": "Dash",
+  "key.categories.hadesmod": "Hades Keys"
 }

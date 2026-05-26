@@ -1,37 +1,30 @@
-[24May2026 17:28:52.876] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\\Users\\theli\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[24May2026 17:28:52.892] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.19 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[24May2026 17:28:53.120] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[24May2026 17:28:53.226] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[24May2026 17:28:53.498] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[24May2026 17:28:53.631] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/theli/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23186!/ Service=ModLauncher Env=CLIENT
-[24May2026 17:28:53.634] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 730 GL version 4.6.0 - Build 32.0.101.7085, Intel
-[24May2026 17:28:54.912] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[24May2026 17:28:54.917] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[24May2026 17:28:54.922] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[24May2026 17:28:54.926] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[24May2026 17:28:55.530] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[24May2026 17:29:02.868] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\theli\.gradle\caches\neoformruntime\assets, --assetIndex, 5]
-[24May2026 17:29:06.725] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 122 milliseconds
-[24May2026 17:29:08.335] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/theli/IdeaProjects/HadesMod/build/moddev/artifacts/forge-1.20.1-47.1.3-merged.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[24May2026 17:29:08.336] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/theli/IdeaProjects/HadesMod/build/moddev/artifacts/forge-1.20.1-47.1.3-merged.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[24May2026 17:29:08.359] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24May2026 17:29:08.368] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[24May2026 17:29:08.439] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[24May2026 17:29:08.671] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
-[24May2026 17:29:08.673] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
-[24May2026 17:29:09.074] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
-[24May2026 17:29:09.074] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
-[24May2026 17:29:09.074] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
-[24May2026 17:29:09.074] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
-[24May2026 17:29:09.708] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [hadesmod]
-[24May2026 17:29:09.917] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[24May2026 17:29:09.972] [Worker-Main-9/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: HELLO FROM COMMON SETUP
-[24May2026 17:29:09.973] [Worker-Main-9/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: DIRT BLOCK >> minecraft:dirt
-[24May2026 17:29:09.973] [Worker-Main-9/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: The magic number is... 42
-[24May2026 17:29:09.974] [Worker-Main-9/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: ITEM >> iron_ingot
-[24May2026 17:29:10.091] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[24May2026 17:29:10.170] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24May2026 17:29:10.216] [Worker-Main-8/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model hadesmod:models/block/god_ore.json
+[25May2026 21:30:26.827] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\\Users\\theli\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[25May2026 21:30:26.831] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.19 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[25May2026 21:30:26.986] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[25May2026 21:30:27.052] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[25May2026 21:30:27.118] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[25May2026 21:30:27.256] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 730 GL version 4.6.0 - Build 32.0.101.7085, Intel
+[25May2026 21:30:27.260] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/theli/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23186!/ Service=ModLauncher Env=CLIENT
+[25May2026 21:30:27.674] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[25May2026 21:30:27.677] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[25May2026 21:30:27.680] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[25May2026 21:30:27.684] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\theli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[25May2026 21:30:27.773] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25May2026 21:30:30.533] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\theli\.gradle\caches\neoformruntime\assets, --assetIndex, 5]
+[25May2026 21:30:34.170] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 128 milliseconds
+[25May2026 21:30:35.939] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/theli/IdeaProjects/HadesMod/build/moddev/artifacts/forge-1.20.1-47.1.3-merged.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[25May2026 21:30:35.940] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/theli/IdeaProjects/HadesMod/build/moddev/artifacts/forge-1.20.1-47.1.3-merged.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[25May2026 21:30:35.973] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25May2026 21:30:35.988] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25May2026 21:30:36.134] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[25May2026 21:30:36.360] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[25May2026 21:30:36.362] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[25May2026 21:30:37.219] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [hadesmod]
+[25May2026 21:30:37.499] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[25May2026 21:30:37.521] [Worker-Main-9/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: HELLO FROM COMMON SETUP
+[25May2026 21:30:37.675] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[25May2026 21:30:37.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25May2026 21:30:37.712] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model hadesmod:models/block/god_ore.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:block/cube_all:,
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:283) ~[forge-1.20.1-47.1.3-merged.jar%23189!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:48) ~[forge-1.20.1-47.1.3-merged.jar%23189!/:?]
@@ -53,111 +46,104 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[24May2026 17:29:10.277] [Worker-Main-3/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: HELLO FROM CLIENT SETUP
-[24May2026 17:29:10.278] [Worker-Main-3/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: MINECRAFT NAME >> Dev
-[24May2026 17:29:10.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.4.10
-[24May2026 17:29:10.990] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadedsmod:block/god_ore' referenced from: hadesmod:god_ore#: java.io.FileNotFoundException: hadedsmod:models/block/god_ore.json
-[24May2026 17:29:11.001] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:roseville#inventory' referenced from: hadesmod:roseville#inventory: java.io.FileNotFoundException: hadesmod:models/item/roseville.json
-[24May2026 17:29:11.001] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:pallasite#inventory' referenced from: hadesmod:pallasite#inventory: java.io.FileNotFoundException: hadesmod:models/item/pallasite.json
-[24May2026 17:29:11.001] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:moonvine#inventory' referenced from: hadesmod:moonvine#inventory: java.io.FileNotFoundException: hadesmod:models/item/moonvine.json
-[24May2026 17:29:11.001] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:bloodiron#inventory' referenced from: hadesmod:bloodiron#inventory: java.io.FileNotFoundException: hadesmod:models/item/bloodiron.json
-[24May2026 17:29:11.001] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:solarite#inventory' referenced from: hadesmod:solarite#inventory: java.io.FileNotFoundException: hadesmod:models/item/solarite.json
-[24May2026 17:29:11.001] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:dionysian_wine#inventory' referenced from: hadesmod:dionysian_wine#inventory: java.io.FileNotFoundException: hadesmod:models/item/dionysian_wine.json
-[24May2026 17:29:11.002] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:regalia#inventory' referenced from: hadesmod:regalia#inventory: java.io.FileNotFoundException: hadesmod:models/item/regalia.json
-[24May2026 17:29:11.002] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:oceancore#inventory' referenced from: hadesmod:oceancore#inventory: java.io.FileNotFoundException: hadesmod:models/item/oceancore.json
-[24May2026 17:29:11.002] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:stormheart#inventory' referenced from: hadesmod:stormheart#inventory: java.io.FileNotFoundException: hadesmod:models/item/stormheart.json
-[24May2026 17:29:11.002] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:ambrosia#inventory' referenced from: hadesmod:ambrosia#inventory: java.io.FileNotFoundException: hadesmod:models/item/ambrosia.json
-[24May2026 17:29:11.002] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:block/god_ore' referenced from: hadesmod:god_ore#inventory: java.io.FileNotFoundException: hadesmod:models/block/god_ore.json
-[24May2026 17:29:11.712] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:daedalus_hammer#inventory:
+[25May2026 21:30:37.786] [Worker-Main-12/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: HELLO FROM CLIENT SETUP
+[25May2026 21:30:37.786] [Worker-Main-12/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: MINECRAFT NAME >> Dev
+[25May2026 21:30:38.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.4.10
+[25May2026 21:30:38.420] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadedsmod:block/god_ore' referenced from: hadesmod:god_ore#: java.io.FileNotFoundException: hadedsmod:models/block/god_ore.json
+[25May2026 21:30:38.427] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:ambrosia#inventory' referenced from: hadesmod:ambrosia#inventory: java.io.FileNotFoundException: hadesmod:models/item/ambrosia.json
+[25May2026 21:30:38.427] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'hadesmod:block/god_ore' referenced from: hadesmod:god_ore#inventory: java.io.FileNotFoundException: hadesmod:models/block/god_ore.json
+[25May2026 21:30:38.889] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:roseville#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/roseville
+[25May2026 21:30:38.890] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:daedalus_hammer#inventory:
     minecraft:textures/atlas/blocks.png:hadesmod:item/daedalus_hammer
-[24May2026 17:29:11.712] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:obol#inventory:
+[25May2026 21:30:38.890] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:solarite#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/solarite
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:pallasite#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/pallasite
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:oceancore#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/oceancore
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:bloodiron#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/bloodiron
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:stormheart#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/stormheart
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:obol#inventory:
     minecraft:textures/atlas/blocks.png:hadesmod:item/obol
-[24May2026 17:29:12.776] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[24May2026 17:29:12.776] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[24May2026 17:29:12.814] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
-[24May2026 17:29:12.816] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[24May2026 17:29:12.906] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[24May2026 17:29:13.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[24May2026 17:29:13.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[24May2026 17:29:13.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[24May2026 17:29:13.438] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[24May2026 17:29:13.564] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[24May2026 17:29:13.571] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[24May2026 17:29:13.575] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[24May2026 17:29:13.581] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[24May2026 17:29:13.809] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[24May2026 17:29:13.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[24May2026 17:29:13.933] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[24May2026 17:29:13.936] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[24May2026 17:29:14.025] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[24May2026 17:29:21.069] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[24May2026 17:29:21.076] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Found a missing id from the world hadesmod:example_block
-[24May2026 17:29:21.097] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
-	hadesmod:example_block: 1003
-
-[24May2026 17:29:21.099] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
-
-There are 1 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[24May2026 17:29:21.099] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:block:
-    hadesmod:example_block
-
-
-[24May2026 17:29:21.099] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[24May2026 17:29:21.100] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: hadesmod:god_ore Expected: 1003 Got: 1004
-[24May2026 17:29:21.100] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: hadesmod:roseville Expected: 1257 Got: 1255
-[24May2026 17:29:21.100] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: hadesmod:pallasite Expected: 1258 Got: 1256
-[24May2026 17:29:22.290] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[24May2026 17:29:22.392] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[24May2026 17:29:22.688] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[24May2026 17:29:22.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24May2026 17:29:23.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24May2026 17:29:25.159] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24May2026 17:29:25.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24May2026 17:29:25.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24May2026 17:29:25.196] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24May2026 17:29:25.545] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24May2026 17:29:26.041] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[24May2026 17:29:26.185] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2649 ms
-[24May2026 17:29:26.186] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[24May2026 17:29:26.186] [Server thread/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: HELLO from server starting
-[24May2026 17:29:26.420] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[24May2026 17:29:26.422] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[24May2026 17:29:26.532] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[24May2026 17:29:27.000] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[24May2026 17:29:27.064] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f4a52228] logged in with entity id 237 at (1.6830970353642687, 87.0, 25.654730405891886)
-[24May2026 17:29:27.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[24May2026 17:29:27.775] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[24May2026 17:29:45.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Isn't It Iron Pick]
-[24May2026 17:29:45.729] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Isn't It Iron Pick]
-[24May2026 17:29:45.750] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
-[24May2026 17:30:24.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown game mode: s
-[24May2026 17:30:24.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] gamemode s<--[HERE]
-[24May2026 17:30:31.820] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
-[24May2026 17:30:31.820] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] gamemode<--[HERE]
-[24May2026 17:30:38.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[24May2026 17:30:38.707] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[24May2026 17:31:02.238] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[24May2026 17:31:02.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[24May2026 17:31:02.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[24May2026 17:31:02.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[24May2026 17:31:22.689] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[24May2026 17:31:22.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[24May2026 17:31:22.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[24May2026 17:31:22.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[24May2026 17:31:23.944] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[24May2026 17:31:23.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[24May2026 17:31:23.952] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[24May2026 17:31:23.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[24May2026 17:31:23.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[24May2026 17:31:23.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[24May2026 17:31:24.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[24May2026 17:31:24.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[24May2026 17:31:24.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[24May2026 17:31:24.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[24May2026 17:31:24.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[24May2026 17:31:24.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[24May2026 17:31:24.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:dionysian_wine#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/dionysian_wine
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:moonvine#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/moonvine
+[25May2026 21:30:38.891] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model hadesmod:regalia#inventory:
+    minecraft:textures/atlas/blocks.png:hadesmod:item/regalia
+[25May2026 21:30:39.763] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[25May2026 21:30:39.764] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[25May2026 21:30:39.814] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[25May2026 21:30:39.817] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[25May2026 21:30:39.929] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[25May2026 21:30:40.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[25May2026 21:30:40.312] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[25May2026 21:30:40.326] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[25May2026 21:30:40.339] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[25May2026 21:30:40.452] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[25May2026 21:30:40.454] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[25May2026 21:30:40.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25May2026 21:30:40.463] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[25May2026 21:30:40.587] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[25May2026 21:30:40.653] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[25May2026 21:30:40.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25May2026 21:30:40.664] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[25May2026 21:30:40.747] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[25May2026 21:30:42.222] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
+[25May2026 21:30:42.222] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
+[25May2026 21:30:42.223] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
+[25May2026 21:30:42.223] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_ENUM in (null): (ID: 173538523) Generic error'
+[25May2026 21:31:46.844] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[25May2026 21:31:48.163] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25May2026 21:31:48.299] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[25May2026 21:31:48.587] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[25May2026 21:31:48.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25May2026 21:31:49.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25May2026 21:31:51.906] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25May2026 21:31:51.926] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25May2026 21:31:51.926] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25May2026 21:31:51.944] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25May2026 21:31:51.944] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25May2026 21:31:52.070] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25May2026 21:31:52.558] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[25May2026 21:31:52.871] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3317 ms
+[25May2026 21:31:52.871] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25May2026 21:31:52.871] [Server thread/INFO] [org.shadowskylyn.hadesmod.HadesMod/]: HELLO from server starting
+[25May2026 21:31:52.994] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[25May2026 21:31:52.998] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[25May2026 21:31:53.121] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[25May2026 21:31:53.692] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[25May2026 21:31:53.760] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:c3af6ad3] logged in with entity id 233 at (-209.24966290984696, 59.20981522784349, 115.51891040356503)
+[25May2026 21:31:53.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[25May2026 21:31:54.483] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 130 advancements
+[25May2026 21:31:56.889] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[25May2026 21:32:20.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[25May2026 21:32:20.119] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[25May2026 21:32:23.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[25May2026 21:32:23.341] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[25May2026 21:32:58.038] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown item 'minecraft:netherite'
+[25May2026 21:32:58.039] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...owd4rk3rr netherite<--[HERE]
+[25May2026 21:33:05.941] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No player was found
+[25May2026 21:33:15.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Netherite Pickaxe] to Dev]
+[25May2026 21:33:15.840] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Netherite Pickaxe] to Dev
+[25May2026 21:33:32.072] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[25May2026 21:33:32.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25May2026 21:33:32.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25May2026 21:33:32.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25May2026 21:33:33.033] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[25May2026 21:33:33.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[25May2026 21:33:33.046] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[25May2026 21:33:33.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25May2026 21:33:33.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25May2026 21:33:33.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25May2026 21:33:33.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25May2026 21:33:33.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25May2026 21:33:33.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25May2026 21:33:33.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[25May2026 21:33:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25May2026 21:33:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25May2026 21:33:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25May2026 21:33:36.164] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
