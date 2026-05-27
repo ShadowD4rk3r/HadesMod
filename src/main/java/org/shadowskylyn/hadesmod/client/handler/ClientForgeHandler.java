@@ -30,7 +30,7 @@ public class ClientForgeHandler {
 
             if (player != null)
             {
-                player.playSound(SoundEvents.CAMEL_DASH, 0.5F, 1.5F);
+                player.playSound(SoundEvents.CANDLE_EXTINGUISH, 0.5F, 1.5F);
             }
 
             dashMessageTicks--;

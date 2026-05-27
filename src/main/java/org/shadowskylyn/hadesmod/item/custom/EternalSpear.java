@@ -11,12 +11,28 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.shadowskylyn.hadesmod.entity.SpearProjectileEntity;
 import org.shadowskylyn.hadesmod.registry.ModEntities;
-
+import software.bernie.geckolib.core.animatable.GeoAnimatable;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.util.GeckoLibUtil;
+import software.bernie.geckolib.animatable.GeoItem;
 // =========================
 // CHARGED SPEAR THROW (NO TRIDENT BEHAVIOR)
 // =========================
 
-public class EternalSpear extends Item {
+
+public class EternalSpear extends Item implements GeoItem{
+
+    private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return this.cache;
+    }
 
     public EternalSpear(Properties properties) {
         super(properties);

@@ -19,6 +19,16 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
+        }
+    }
 }
 
 base {
@@ -140,6 +150,10 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+    //geckoLib
+    implementation "software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}"
+    implementation("com.eliotlash.mclib:mclib:20")
 }
 
 // Uncomment the lines below if you wish to configure mixin. The mixin file should be named modid.mixins.json.
@@ -197,6 +211,15 @@ publishing {
     repositories {
         maven {
             url "file://${project.projectDir}/repo"
+        }
+        //geckoLib
+        maven {
+            name = 'GeckoLib'
+            url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+            content {
+                includeGroupByRegex("software\\.bernie.*")
+                includeGroup("com.eliotlash.mclib")
+            }
         }
     }
 }
