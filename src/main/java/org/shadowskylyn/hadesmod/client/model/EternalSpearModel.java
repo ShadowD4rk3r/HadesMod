@@ -7,13 +7,13 @@ import org.shadowskylyn.hadesmod.item.custom.EternalSpear;
 public class EternalSpearModel extends GeoModel<EternalSpear>
 {
     private final ResourceLocation model =
-            new ResourceLocation("hadesmod", "geo/spear.geo.json");
+            new ResourceLocation("hadesmod", "geo/eternal_spear.geo.json");
 
     private final ResourceLocation texture =
-            new ResourceLocation("hadesmod", "textures/item/spear.png");
+            new ResourceLocation("hadesmod", "textures/item/eternal_spear.png");
 
     private final ResourceLocation animation =
-            new ResourceLocation("hadesmod", "animations/spear.animation.json");
+            new ResourceLocation("hadesmod", "animations/eternal_spear.animation.json");
 
     @Override
     public ResourceLocation getModelResource(EternalSpear animatable)

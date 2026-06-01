@@ -9,13 +9,19 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
+import org.shadowskylyn.hadesmod.client.render.EternalSpearRenderer;
 import org.shadowskylyn.hadesmod.entity.SpearProjectileEntity;
 import org.shadowskylyn.hadesmod.registry.ModEntities;
-import software.bernie.geckolib.core.animatable.GeoAnimatable;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.util.GeckoLibUtil;
 import software.bernie.geckolib.animatable.GeoItem;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
+import java.util.function.Consumer;
+import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 // =========================
 // CHARGED SPEAR THROW (NO TRIDENT BEHAVIOR)
 // =========================
@@ -27,6 +33,17 @@ public class EternalSpear extends Item implements GeoItem{
 
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        controllers.add(
+                new AnimationController<>(this, "controller", 0,
+                        state -> {
+                            state.setAndContinue(
+                                    RawAnimation.begin()
+                                            .thenLoop("eternal_spear.animation")
+                            );
+
+                            return PlayState.CONTINUE;
+                        })
+        );
     }
 
     @Override
@@ -91,6 +108,23 @@ public class EternalSpear extends Item implements GeoItem{
 
             level.addFreshEntity(spear);
         }
+    }
+
+    @Override
+    public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+        consumer.accept(new IClientItemExtensions() {
+
+            private EternalSpearRenderer renderer;
+
+            @Override
+            public BlockEntityWithoutLevelRenderer getCustomRenderer() {
+                if (renderer == null) {
+                    renderer = new EternalSpearRenderer();
+                }
+
+                return renderer;
+            }
+        });
     }
 
     // disable vanilla trident throw completely

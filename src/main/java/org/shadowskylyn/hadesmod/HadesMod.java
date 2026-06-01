@@ -32,6 +32,7 @@ import org.shadowskylyn.hadesmod.item.ModItems;
 import org.shadowskylyn.hadesmod.item.custom.ModCreativeModTabs;
 import org.shadowskylyn.hadesmod.registry.ModEntities;
 import org.slf4j.Logger;
+import software.bernie.geckolib.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(HadesMod.MODID)
@@ -84,6 +85,8 @@ public class HadesMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        //this is for gecko lib
+        GeckoLib.initialize();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
