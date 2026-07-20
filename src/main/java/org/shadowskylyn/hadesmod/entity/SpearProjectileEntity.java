@@ -115,7 +115,7 @@ public class SpearProjectileEntity extends Projectile {
                 this.setDeltaMovement(0, 0, 0);
             }
 
-            // CLIENT VISUALS
+            // CLIENT VISUALS / never renders fix this
             if (level().isClientSide) {
                 renderTether();
             }
@@ -153,7 +153,7 @@ public class SpearProjectileEntity extends Projectile {
         }
 
         // =========================
-        // FLIGHT PARTICLES
+        // FLIGHT PARTICLES/fix this
         // =========================
 
         if (level().isClientSide) {
@@ -349,7 +349,7 @@ public class SpearProjectileEntity extends Projectile {
     }
 
     // =========================
-    // TETHER VISUAL
+    // TETHER VISUAL // Doesnt work yet
     // =========================
 
     private void renderTether() {
@@ -374,7 +374,7 @@ public class SpearProjectileEntity extends Projectile {
             double t = i / (double) steps;
 
             Vec3 pos = start.add(diff.scale(t));
-
+            //Figure why this wont work
             level().addParticle(
                     level().random.nextBoolean()
                             ? ParticleTypes.END_ROD

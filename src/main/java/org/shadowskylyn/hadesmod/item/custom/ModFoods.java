@@ -15,4 +15,9 @@ public class ModFoods {
             .effect( () -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 250, 0), 1f)
             .alwaysEat()
             .build();
+
+    public static final FoodProperties NECTAR = new FoodProperties.Builder().nutrition(3).saturationMod(0.2f)
+            .effect( () -> new MobEffectInstance(MobEffects.REGENERATION, 200, 0), 1f)
+            .alwaysEat()
+            .build();
 }

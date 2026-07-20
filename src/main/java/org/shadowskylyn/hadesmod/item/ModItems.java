@@ -20,6 +20,8 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> OBOL = ITEMS.register("obol",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRACHMA = ITEMS.register("drachma",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ETERNAL_SPEAR = ITEMS.register("eternal_spear",
             () -> new EternalSpear(new Item.Properties().rarity(Rarity.UNCOMMON).durability(2500)));
@@ -55,9 +57,14 @@ public class ModItems
             () -> new Item(new Item.Properties().fireResistant()));
 
 
+
+
     //custom food item, refer to ModFoods to create food
     public static final RegistryObject<Item> AMBROSIA = ITEMS.register("ambrosia",
             () -> new Item(new Item.Properties().food(ModFoods.AMBROSIA).stacksTo(16)));
+
+    public static final RegistryObject<Item> NECTAR = ITEMS.register("nectar",
+            () -> new Item(new Item.Properties().food(ModFoods.NECTAR).stacksTo(16)));
 
     public static void register(IEventBus eventBus)
     {

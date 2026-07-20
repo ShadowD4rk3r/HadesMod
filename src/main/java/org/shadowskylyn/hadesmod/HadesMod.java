@@ -30,6 +30,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.shadowskylyn.hadesmod.block.ModBlocks;
 import org.shadowskylyn.hadesmod.item.ModItems;
 import org.shadowskylyn.hadesmod.item.custom.ModCreativeModTabs;
+import org.shadowskylyn.hadesmod.menu.ModMenuTypes;
+import org.shadowskylyn.hadesmod.network.ModPackets;
 import org.shadowskylyn.hadesmod.registry.ModEntities;
 import org.slf4j.Logger;
 import software.bernie.geckolib.GeckoLib;
@@ -82,6 +84,10 @@ public class HadesMod
 
         ModEntities.ENTITY_TYPES.register(modEventBus);
 
+        ModMenuTypes.MENUS.register(modEventBus);
+
+        ModPackets.register();
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -117,6 +123,9 @@ public class HadesMod
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
+            //testing
+            LOGGER.info("Registered Entity: " + ModEntities.DIONYSUS_TRADER.getId());
         }
     }
 }

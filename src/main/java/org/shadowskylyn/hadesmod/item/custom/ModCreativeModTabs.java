@@ -26,6 +26,7 @@ public class ModCreativeModTabs
 
                 //items and foods below
                 output.accept(ModItems.OBOL.get());
+                output.accept(ModItems.DRACHMA.get());
                 output.accept(ModItems.DAEDALUS_HAMMER.get());
                 output.accept(ModItems.AMBROSIA.get());
                 output.accept(ModItems.BLOODIRON.get());
