@@ -76,7 +76,15 @@ public class DionysusTraderEntity extends PathfinderMob implements GeoEntity {
                 new ItemStack(ModItems.OBOL.get(), 50),
                 new ItemStack(ModItems.NECTAR.get())
         ));
+
+        offers.add(new ShopOffer(
+                new ItemStack(ModItems.OBOL.get(), 1),
+                new ItemStack(ModItems.DIONYSIAN_WINE.get())
+        ));
+
     }
+
+    //Figure out how to get the dialogue working, rework the GUI system for the trader
     private void createDialogue() {
         dialogue.add("Ah, there you are.");
         dialogue.add("Care for a drink?");
