@@ -1,0 +1,32 @@
+{
+  "parent": "hadesmod:root",
+  "display": {
+    "icon": {
+      "item": "hadesmod:obol"
+    },
+    "title": {
+      "translate": "advancements.hadesmod.obtain_obol.title"
+    },
+    "description": {
+      "translate": "advancements.hadesmod.obtain_obol.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_obol": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hadesmod:obol"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

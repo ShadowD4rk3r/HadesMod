@@ -1,0 +1,30 @@
+{
+  "parent": "hadesmod:root",
+  "display": {
+    "icon": {
+      "item": "hadesmod:dionysian_wine"
+    },
+    "title": {
+      "translate": "advancements.hadesmod.drink_wine.title"
+    },
+    "description": {
+      "translate": "advancements.hadesmod.drink_wine.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink_wine": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "hadesmod:dionysian_wine"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -22,5 +22,14 @@
   "creativetab.hades_tab": "Hades Mod",
 
   "key.hadesmod.dash_key": "Dash",
-  "key.categories.hadesmod": "Hades Keys"
+  "key.categories.hadesmod": "Hades Keys",
+
+  "advancements.hadesmod.obtain_obol.title": "A Coin for the Dead",
+  "advancements.hadesmod.obtain_obol.description": "Obtain your first Obol.",
+
+  "advancements.hadesmod.drink_wine.title": "A Toast to Dionysus",
+  "advancements.hadesmod.drink_wine.description": "Drink a bottle of Dionysian Wine.",
+
+  "advancements.hadesmod.pay_ferryman.title": "Tickets, Please!",
+  "advancements.hadesmod.pay_ferryman.description": "The ferryman won't accept any excuses."
 }

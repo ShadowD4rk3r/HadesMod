@@ -1,0 +1,23 @@
+{
+  "parent": "hadesmod:root",
+  "display": {
+    "icon": {
+      "item": "hadesmod:obol"
+    },
+    "title": {
+      "translate": "advancements.hadesmod.pay_ferryman.title"
+    },
+    "description": {
+      "translate": "advancements.hadesmod.pay_ferryman.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "paid": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

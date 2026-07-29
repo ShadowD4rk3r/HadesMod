@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "hadesmod:obol"
+    },
+    "title": {
+      "text": "Beyond the Mortal Realm"
+    },
+    "description": {
+      "text": "Enjoy your journey into the Underworld."
+    },
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
