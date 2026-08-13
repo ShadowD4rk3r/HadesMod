@@ -1,0 +1,15 @@
+{
+  "type": "hadesmod:loom_of_fates_type",
+
+  "generator": {
+    "type": "minecraft:noise",
+
+    "settings": "minecraft:overworld",
+
+    "biome_source": {
+      "type": "minecraft:fixed",
+
+      "biome": "hadesmod:loom_of_fates"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0.0,
+
+  "effects": {
+    "fog_color": 13168887,
+    "sky_color": 14348031,
+    "water_color": 7490923,
+    "water_fog_color": 7490923,
+    "grass_color": 12824767,
+    "foliage_color": 13087167,
+
+    "ambient_particle": {
+      "options": {
+        "type": "minecraft:enchant"
+      },
+      "probability": 0.008
+    }
+  },
+
+  "spawn_costs": {},
+
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  },
+
+  "carvers": {},
+
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}
