@@ -1,5 +1,6 @@
 package org.shadowskylyn.hadesmod.item;
 
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -7,6 +8,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.shadowskylyn.hadesmod.HadesMod;
+import org.shadowskylyn.hadesmod.item.armor.NyxArmor.NyxArmorItem;
+import org.shadowskylyn.hadesmod.item.armor.NyxArmor.NyxArmor;
 import org.shadowskylyn.hadesmod.item.custom.EternalSpear;
 import org.shadowskylyn.hadesmod.item.custom.ModFoods;
 
@@ -65,6 +68,37 @@ public class ModItems
 
     public static final RegistryObject<Item> NECTAR = ITEMS.register("nectar",
             () -> new Item(new Item.Properties().food(ModFoods.NECTAR).stacksTo(16)));
+
+    //Customm Armors
+
+    //Nyx
+    public static final RegistryObject<Item> NYX_HELMET = ITEMS.register("nyx_helmet",
+            () -> new NyxArmorItem(
+                    NyxArmor.INSTANCE,
+                    ArmorItem.Type.HELMET,
+                    new Item.Properties()
+            ));
+
+    public static final RegistryObject<Item> NYX_CHESTPLATE = ITEMS.register("nyx_chestplate",
+            () -> new NyxArmorItem(
+                    NyxArmor.INSTANCE,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+            ));
+
+    public static final RegistryObject<Item> NYX_LEGGINGS = ITEMS.register("nyx_leggings",
+            () -> new NyxArmorItem(
+                    NyxArmor.INSTANCE,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+            ));
+
+    public static final RegistryObject<Item> NYX_BOOTS = ITEMS.register("nyx_boots",
+            () -> new NyxArmorItem(
+                    NyxArmor.INSTANCE,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+            ));
 
     public static void register(IEventBus eventBus)
     {

@@ -1,4 +1,4 @@
-package org.shadowskylyn.hadesmod.item.armor;
+package org.shadowskylyn.hadesmod.item.armor.NyxArmor;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -22,6 +22,8 @@ public class NyxArmor implements ArmorMaterial {
             8,
             3
     };
+
+    public static final NyxArmor INSTANCE = new NyxArmor();
 
     @Override
     public int getDurabilityForType(ArmorItem.Type type) {

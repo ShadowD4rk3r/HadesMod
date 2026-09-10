@@ -18,9 +18,15 @@
 
   "block.hadesmod.god_ore": "Olympian Ore",
 
+  "item.hadesmod.nyx_helmet": "Midnight Veil",
+  "item.hadesmod.nyx_chestplate": "Midnight Mantle",
+  "item.hadesmod.nyx_leggings": "Midnight Shroud",
+  "item.hadesmod.nyx_boots": "Midnight Step",
+
 
   "creativetab.hades_tab": "Hades Mod",
 
+  "key.hadesmod.nyx_embrace": "Nyx Embrace",
   "key.hadesmod.dash_key": "Dash",
   "key.categories.hadesmod": "Hades Keys",
 

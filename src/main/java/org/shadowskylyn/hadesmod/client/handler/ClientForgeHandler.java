@@ -10,6 +10,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.shadowskylyn.hadesmod.HadesMod;
 import org.shadowskylyn.hadesmod.client.ModKeybinds;
+import org.shadowskylyn.hadesmod.item.armor.NyxArmor.NyxArmorAbility;
+import net.minecraftforge.event.entity.player.AttackEntityEvent;
 
 
 @Mod.EventBusSubscriber( modid = HadesMod.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
@@ -57,6 +59,13 @@ public class ClientForgeHandler {
             dashMessageTicks = 5;
         }
 
+        NyxArmorAbility.tick();
+
+        if (ModKeybinds.NYXS_EMBRACE.consumeClick())
+        {
+                NyxArmorAbility.activate();
+        }
+
         if (ModKeybinds.DASH_KEY.consumeClick() && dashesLeft != 0 && dashCooldown <= 0)
         {
             dashesLeft--;
@@ -87,5 +96,15 @@ public class ClientForgeHandler {
 
         player.hasImpulse = true;
         player.hurtMarked = true;
+    }
+
+    @SubscribeEvent
+    public static void onPlayerAttack(AttackEntityEvent event) {
+
+        if (!(event.getEntity() instanceof LocalPlayer)) {
+            return;
+        }
+
+        NyxArmorAbility.onPlayerAttack();
     }
 }

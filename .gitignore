@@ -1,4 +1,24 @@
-# Project exclude paths
+# Gradle
 /.gradle/
 /build/
-/build/classes/java/main/
+
+# Compiled Java
+*.class
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Forge development environment
+/run/
+
+# Java crash logs
+hs_err_pid*.log

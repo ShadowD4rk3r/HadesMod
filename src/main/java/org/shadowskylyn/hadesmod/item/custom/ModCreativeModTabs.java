@@ -21,6 +21,12 @@ public class ModCreativeModTabs
             .displayItems((itemDisplayParameters, output) -> {
                 // goes in order from top to bottom how they get added probably should do it in aplhabetical order
 
+                //Armors
+                output.accept(ModItems.NYX_HELMET.get());
+                output.accept(ModItems.NYX_CHESTPLATE.get());
+                output.accept(ModItems.NYX_LEGGINGS.get());
+                output.accept(ModItems.NYX_BOOTS.get());
+
                 //Weapons
                 output.accept(ModItems.ETERNAL_SPEAR.get());
 

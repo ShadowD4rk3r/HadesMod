@@ -29,5 +29,6 @@ public class ClientModHandler {
     public static void registerKeys(RegisterKeyMappingsEvent event)
     {
         event.register(ModKeybinds.DASH_KEY);
+        event.register(ModKeybinds.NYXS_EMBRACE);
     }
 }

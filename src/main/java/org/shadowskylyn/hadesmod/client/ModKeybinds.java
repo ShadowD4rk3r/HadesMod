@@ -20,4 +20,12 @@ public final class ModKeybinds {
                 CATEGORY
                 );
 
+        public static final KeyMapping NYXS_EMBRACE = new KeyMapping(
+                "key." + HadesMod.MODID + ".nyx_embrace",
+                KeyConflictContext.IN_GAME,
+                InputConstants.getKey(InputConstants.KEY_Z, -1),
+                CATEGORY
+        );
+
+
 }
