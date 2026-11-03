@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "godore",
-		"particle": "godore"
+		"1": "hadesmod:block/god_ore",
+		"particle": "hadesmod:block/god_ore"
 	},
 	"elements": [
 		{
@@ -17,24 +17,6 @@
 				"up": {"uv": [0, 8, 4, 12], "texture": "#1"},
 				"down": {"uv": [8, 0, 12, 4], "texture": "#1"}
 			}
-		}
-	],
-	"display": {},
-	"groups": [
-		{
-			"name": "all",
-			"origin": [8, 8, 8],
-			"scope": 0,
-			"color": 0,
-			"children": [
-				{
-					"name": "block go brrr",
-					"origin": [8, 8, 8],
-					"scope": 0,
-					"color": 0,
-					"children": [0]
-				}
-			]
 		}
 	]
 }

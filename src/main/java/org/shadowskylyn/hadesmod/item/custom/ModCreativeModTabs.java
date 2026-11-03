@@ -45,6 +45,9 @@ public class ModCreativeModTabs
                 output.accept(ModItems.SOLARITE.get());
                 output.accept(ModItems.STORMHEART.get());
 
+                //spawn items
+                output.accept(ModItems.DIONYSUS_SPAWN_EGG.get());
+
                 //Ores and blocks below
                 output.accept(ModBlocks.GOD_ORE.get());
 

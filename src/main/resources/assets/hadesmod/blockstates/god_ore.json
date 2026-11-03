@@ -1,8 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "hadedsmod:block/god_ore"
+      "model": "hadesmod:block/god_ore"
     }
   }
-
 }

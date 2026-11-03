@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
     {
-      "layer0": "hadesmod:item/drachma",
+      "layer0": "hadesmod:item/drachma"
     }
 }

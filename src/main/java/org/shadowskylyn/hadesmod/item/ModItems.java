@@ -3,6 +3,7 @@ package org.shadowskylyn.hadesmod.item;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,6 +13,7 @@ import org.shadowskylyn.hadesmod.item.armor.NyxArmor.NyxArmorItem;
 import org.shadowskylyn.hadesmod.item.armor.NyxArmor.NyxArmor;
 import org.shadowskylyn.hadesmod.item.custom.EternalSpear;
 import org.shadowskylyn.hadesmod.item.custom.ModFoods;
+import org.shadowskylyn.hadesmod.registry.ModEntities;
 
 
 public class ModItems
@@ -99,6 +101,16 @@ public class ModItems
                     ArmorItem.Type.BOOTS,
                     new Item.Properties()
             ));
+
+    //Spawn Items
+    public static final RegistryObject<Item> DIONYSUS_SPAWN_EGG =
+            ITEMS.register("dionysus_spawn_egg",
+                    () -> new ForgeSpawnEggItem(
+                            ModEntities.DIONYSUS_TRADER,
+                            0x702963,
+                            0xD4AF37,
+                            new Item.Properties()
+                    ));
 
     public static void register(IEventBus eventBus)
     {

@@ -20,8 +20,8 @@ import net.minecraft.world.phys.Vec3;
 )
 public class NyxArmorEffect {
 
-    private static final int EFFECT_DURATION = 20 * 10;
-    private static final int REFRESH_THRESHOLD = 20 * 5;
+    private static final int EFFECT_DURATION = 20 * 15;
+    private static final int REFRESH_THRESHOLD = 20 * 11;
 
 
     @SubscribeEvent
